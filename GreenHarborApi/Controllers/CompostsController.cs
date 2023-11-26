@@ -48,8 +48,6 @@ namespace GreenHarborApi.Controllers
       return compost;
     }
     
-
-    
     [HttpGet]
     [Route("paging-filter")]
     public IActionResult GetCompostPagingData ([FromQuery] PagedParameters compostParameters)
